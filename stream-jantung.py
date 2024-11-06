@@ -1,7 +1,11 @@
-import pickle
-import numpy as np
+import os
 import streamlit as st
 
+os.system("pip install scikit-learn==1.5.2")
+
+import pickle
+import numpy as np
+from sklearn.linear_model import LogisticRegression
 # Load saved model
 model = pickle.load(open('penyakit_jantung.sav', 'rb'))
 
