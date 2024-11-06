@@ -38,7 +38,7 @@ with col3:
 with col2:
     thal = st.text_input('Nilai Thal')
     
-# Kode untuk prediksi
+# Kode untuk prediksii
 heart_diagnosis = ''
 
 # Membuat tombol prediksi
